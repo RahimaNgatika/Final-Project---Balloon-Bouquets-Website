@@ -1,0 +1,107 @@
+.navbar{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.alert {
+    color: grey;
+    text-align: center;
+    font-weight: normal;
+    
+}
+
+#wrapper { 
+    width: 920px; 
+    height: auto; 
+    margin: 0 auto;
+} 
+#BB1{ 
+    width: 47.5%; 
+    height: 300px; 
+    float: left; 
+    margin-right: 5%;
+} 
+
+#BB2{ 
+    width: 47.5%; 
+    height: 300px; 
+    float: left; 
+}
+
+
+.clear{
+    clear: all;
+}
+
+@media (max-width:767px) {
+    #wrapper{
+        width: 100%;
+        height: auto;
+    }
+    #BB1{
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+    #BB2 {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+
+
+}
+.carousel { 
+    height: 100%
+}
+
+    .carousel-inner, .item > img { 
+        
+    width:100%; height:208px;
+ } 
+
+.carousel-inner, .carousel-item {
+    height: 100%;
+}
+
+.carousel-item {
+    background-size: cover;
+}
+
+.col-md-6 {
+    background-color: grey;
+}
+
+.col-12 {
+    background-color: grey;
+}
+
+.col-md-4 {
+    background-color: grey;
+}
+
+.col-md-2 {
+    background-color: grey;
+}
+.mb-3 {
+    background-color: grey;
+}
+.form-label {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+
+.form-check-label {
+    background-color: grey;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+
+.img-thumbnail {
+    max-width: 200px;
+}
+
+.bouquetShowcase {
+    background-color: grey;
+}
